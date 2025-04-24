@@ -1,11 +1,12 @@
 import seaborn as sns
 import pandas as pd
+import matplotlib.pyplot as plt
 
 df = pd.read_excel("./data/raw/adidas_us_sales_dataset.xlsx")
 
 
 plt.figure(figsize=(7, 5))
-ax = sns.barplot(data=df, x='Region', y='COUNT(*)', palette='tab10')
+ax = sns.barplot(data=df['Region'], palette='tab10')
 
 # Añadir los valores encima de cada barra
 for p in ax.patches:
