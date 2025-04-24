@@ -8,13 +8,13 @@ df = pd.read_excel("./data/raw/adidas_us_sales_dataset.xlsx")
 plt.figure(figsize=(7, 5))
 ax = sns.barplot(data=df['Region'], palette='tab10')
 
-# Añadir los valores encima de cada barra
+# Añadir valores al final de cada barra
 for p in ax.patches:
-    altura = p.get_height()
-    ax.text(p.get_x() + p.get_width() / 2,     # posición x: centro de la barra
-            altura + 1,                        # posición y: un poco arriba del borde
-            int(altura),                       # valor a mostrar
-            ha='center', va='bottom', fontsize=9)
+    ancho = p.get_width()
+    ax.text(ancho + 1,                           # posición x (ligeramente a la derecha)
+            p.get_y() + p.get_height() / 2,     # posición y (centro de la barra)
+            int(ancho),                         # valor a mostrar
+            va='center')                        # alineación vertical
 
 # Títulos y etiquetas
 plt.title('Outliers en Region')
