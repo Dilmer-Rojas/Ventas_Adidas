@@ -8,3 +8,6 @@ Este repositorio sirve como mi documentación para el Proyecto de análisis de d
 
 Todo el proyecto se implementó utilizando Python 3 en Jupyter Notebook, MySQL Workbench y Microsoft Power BI Desktop y se publicó en Microsoft Power BI Service.
 
+---
+
+## Contenido
