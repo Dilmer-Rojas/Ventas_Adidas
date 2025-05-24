@@ -16,6 +16,7 @@ Todo el proyecto se implementó utilizando Python 3 en Jupyter Notebook, MySQL W
 
 ## Objetivo del proyecto:
 
+- El objetivo del análisis es identificar patrones de venta para optimizar el inventario, mejorar la toma de decisiones comerciales y orientar futuras estrategias de marketing.
 
 
 ---
