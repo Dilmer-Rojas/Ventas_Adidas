@@ -16,3 +16,6 @@ Todo el proyecto se implementó utilizando Python 3 en Jupyter Notebook, MySQL W
 
 ## Objetivo del proyecto
 
+---
+
+## Herramientas
