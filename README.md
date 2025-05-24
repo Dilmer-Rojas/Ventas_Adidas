@@ -18,4 +18,4 @@ Todo el proyecto se implementó utilizando Python 3 en Jupyter Notebook, MySQL W
 
 ---
 
-## Herramientas
+## Herramientas utilizadas:
