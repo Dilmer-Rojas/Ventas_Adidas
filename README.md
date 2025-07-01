@@ -15,7 +15,8 @@ Todo el proyecto se implementó utilizando Python 3 en Jupyter Notebook, MySQL W
 - [Objetivo del Proyecto](#objetivo-del-proyecto)
 - [Preguntas Clave](#preguntas-clave)
 - [Herramientas Utilizadas](#herramientas-utilizadas)
-
+- [EDA SQL y Python](#eda-sql-y-python)
+- [Visualización de Datos](#visualización-de-datos)
 
 ## Objetivo del proyecto
 
