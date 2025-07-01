@@ -11,7 +11,8 @@ Todo el proyecto se implementó utilizando Python 3 en Jupyter Notebook, MySQL W
 
 ## Contenido
 
-- [Enlace al dataset en Kaggle](https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset)
+<!-- - [Enlace al dataset en Kaggle](https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset) -->
+- [Enlace al dataset de Kaggle](https://www.kaggle.com/datasets/sagarmorework/adidas-us-sales)
 - [Objetivo del Proyecto](#objetivo-del-proyecto)
 - [Preguntas Clave](#preguntas-clave)
 - [Herramientas Utilizadas](#herramientas-utilizadas)
