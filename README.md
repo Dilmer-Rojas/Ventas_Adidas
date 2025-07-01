@@ -12,11 +12,15 @@ Todo el proyecto se implementó utilizando Python 3 en Jupyter Notebook, MySQL W
 
 ## Contenido:
 
+- [Enlace al dataset en Kaggle](https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset)
+- [Objetivo del Proyecto](#objetivo-del-proyecto)
+- [Herramientas Utilizadas](#herramientas-utilizadas)
+
 ---
 
 ## Objetivo del proyecto:
 
-- El objetivo del análisis es identificar patrones de venta para optimizar el inventario, mejorar la toma de decisiones comerciales y orientar futuras estrategias de marketing.
+El objetivo principal de este análisis es comprender mejor el rendimiento de las ventas, el comportamiento del cliente, la popularidad de los productos, las tendencias geográficas, los patrones estacionales y la rentabilidad de los productos Adidas. Mediante el uso de SQL y Python para la manipulación de datos y Power BI para su visualización.
 
 
 ---
