@@ -65,5 +65,12 @@ Las herramientas que utilicé son:
 - SQL y Python para la manipulación y exploración de los datos.
 - Power BI para la visualización de los datos.
 
+---
+
+## EDA (SQL y Python)
+
+Usamos SQL y Python para hacer el análisis exploratorio de datos, todo esto lo puedes encontrar en:
+
+- [EDA](./notebooks/Adidas%20EDA.ipynb)
 
 ---
