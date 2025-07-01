@@ -71,6 +71,14 @@ Las herramientas que utilicé son:
 
 Usamos SQL y Python para hacer el análisis exploratorio de datos, todo esto lo puedes encontrar en:
 
-- [EDA](./notebooks/Adidas%20EDA.ipynb)
+[EDA](./notebooks/Adidas%20EDA.ipynb)
+
+---
+
+## Visualización de Datos
+
+Usamos Power BI para la visualización de los datos, todo esto lo puedes encontrar en:
+
+[Visuazilacion Power BI](./reports/readme.md)
 
 ---
