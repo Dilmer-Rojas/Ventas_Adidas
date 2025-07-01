@@ -79,6 +79,6 @@ Usamos SQL y Python para hacer el análisis exploratorio de datos, todo esto lo 
 
 Usamos Power BI para la visualización de los datos, todo esto lo puedes encontrar en:
 
-[Visuazilacion Power BI](./reports/readme.md)
+[Visualizacion Power BI](./reports/readme.md)
 
 ---
