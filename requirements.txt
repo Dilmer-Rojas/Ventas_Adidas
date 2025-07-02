@@ -4,3 +4,6 @@ matplotlib
 numpy
 scipy
 openpyxl
+ipython-sql 
+sqlalchemy
+pymysql
