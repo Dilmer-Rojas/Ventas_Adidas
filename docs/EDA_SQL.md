@@ -18,7 +18,7 @@ SELECT DATENAME(YEAR, [Invoice Date]) AS 'AÑO',
 FROM dbo.Adidas_US_2
 GROUP BY DATENAME(YEAR, [Invoice Date]);
 ```
-<img src="./eda_img/eda1.png" height=120 width=230>
+<img src="./eda_img/eda1.png">
 
 #### ¿Cuáles son los ingresos totales generados por mes tanto para los años 2020 y 2021? (SQL)
 
@@ -35,7 +35,7 @@ GROUP BY
     DATENAME(MONTH, [Invoice Date])
 ORDER BY MesNumero;
 ```
-<img src="./eda_img/eda2.png" height=320 width=270>
+<img src="./eda_img/eda2.png">
 
 ```sql
 -- Ingresos totales por mes en el año 2020
@@ -50,4 +50,4 @@ GROUP BY
     DATENAME(MONTH, [Invoice Date])
 ORDER BY MesNumero;
 ```
-<img src="./eda_img/eda3.png" height=320 width=270>
+<img src="./eda_img/eda3.png">
