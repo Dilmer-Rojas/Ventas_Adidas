@@ -18,4 +18,4 @@ SELECT DATENAME(YEAR, [Invoice Date]) AS 'AÑO',
 FROM dbo.Adidas_US_2
 GROUP BY DATENAME(YEAR, [Invoice Date]);
 ```
-<img src="./eda_img/eda1.png" height=120>
+<img src="./eda_img/eda1.png" height=120 width=230>
