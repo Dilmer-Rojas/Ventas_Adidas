@@ -8,10 +8,13 @@ Conjunto de Datos:
 
 <img src="Imagen1.png">
 
+### Análisis de Ventas
+
+#### ¿Cuáles son los ingresos totales generados por año? (SQL)
+
 ```sql
-SELECT
-	SUM(CASE WHEN sales_id IS NULL THEN 1 ELSE 0 END) AS nulos_sales_id,
-	SUM(CASE WHEN retailer IS NULL THEN 1 ELSE 0 END) AS nulos_retailer,
-	SUM(CASE WHEN retailer_id IS NULL THEN 1 ELSE 0 END) AS nulos_retailer_id
-FROM dbo.Adidas_US;
+SELECT DATENAME(YEAR, [Invoice Date]) AS 'AÑO',
+	SUM([Total Sales]) AS [Ingresos Totales]
+FROM dbo.Adidas_US_2
+GROUP BY DATENAME(YEAR, [Invoice Date]);
 ```
