@@ -36,3 +36,18 @@ GROUP BY
 ORDER BY MesNumero;
 ```
 <img src="./eda_img/eda2.png" height=320 width=270>
+
+```sql
+-- Ingresos totales por mes en el año 2020
+SELECT 
+    MONTH([Invoice Date]) AS MesNumero,
+    DATENAME(MONTH, [Invoice Date]) AS 'MES',
+    SUM([Total Sales]) AS [Ingresos Totales]
+FROM dbo.Adidas_US_2
+WHERE YEAR([Invoice Date]) = 2020
+GROUP BY 
+    MONTH([Invoice Date]),
+    DATENAME(MONTH, [Invoice Date])
+ORDER BY MesNumero;
+```
+<img src="./eda_img/eda3.png" height=320 width=270>
