@@ -31,6 +31,7 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
 #### Análisis de ventas
 
 - ¿Cuáles son los ingresos totales generados por año? (SQL)
+- ¿Cuáles son los ingresos totales generados por mes tanto para los años 2020 y 2021? (SQL)
 - ¿Cuáles son los 5 mejores productos a lo largo de los años? (SQL)
 - ¿Cuál es el valor promedio de ventas diarias por minorista? (SQL)
 - ¿Cuál es el período de máximas ventas? (Power BI)
