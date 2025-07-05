@@ -10,7 +10,7 @@ Conjunto de Datos:
 
 ### Análisis de Ventas
 
-#### ¿Cuáles son los ingresos totales generados por año? (SQL)
+#### ¿Cuáles son los ingresos totales generados por año?
 
 ```sql
 SELECT DATENAME(YEAR, [Invoice Date]) AS 'AÑO',
@@ -20,7 +20,7 @@ GROUP BY DATENAME(YEAR, [Invoice Date]);
 ```
 <img src="./eda_img/eda1.png">
 
-#### ¿Cuáles son los ingresos totales generados por mes tanto para los años 2020 y 2021? (SQL)
+#### ¿Cuáles son los ingresos totales generados por mes tanto para los años 2020 y 2021?
 
 ```sql
 -- Ingresos totales por mes en el año 2020
@@ -52,7 +52,7 @@ ORDER BY MesNumero;
 ```
 <img src="./eda_img/eda3.png">
 
-#### ¿Cuáles son los 5 mejores productos a lo largo de los años? (SQL)
+#### ¿Cuáles son los 5 mejores productos a lo largo de los años?
 
 ```sql
 -- 5 mejores productos del año 2020
@@ -72,3 +72,22 @@ ORDER BY SUM([Total Sales]) DESC;
 ```
 <img src="./eda_img/eda4.png">
 
+#### ¿Cuál es el valor promedio de ventas diarias por minorista?
+
+```sql
+-- Promedio de ventas Diarias 2020
+SELECT [Retailer],
+    AVG([Total Sales]) AS [Promedio Ventas Diarias]
+FROM dbo.Adidas_US_2
+WHERE DATENAME(YEAR, [Invoice Date]) = 2020
+GROUP BY [Retailer]
+ORDER BY AVG([Total Sales]) DESC
+-- Promedio de ventas Diarias 2021
+SELECT [Retailer],
+    AVG([Total Sales]) AS [Promedio Ventas Diarias]
+FROM dbo.Adidas_US_2
+WHERE DATENAME(YEAR, [Invoice Date]) = 2021
+GROUP BY [Retailer]
+ORDER BY AVG([Total Sales]) DESC;
+```
+<img src="./eda_img/eda5.png">
