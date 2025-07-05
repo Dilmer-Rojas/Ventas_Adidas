@@ -185,3 +185,26 @@ ORDER BY
 <img src="./eda_img/eda7.png">
 
 #### ¿Cuáles son los 3 mejores métodos de venta?
+
+```sql
+-- TOP 3 Mejores métodos de venta en el 2020
+SELECT TOP 3 [Sales Method],
+    SUM([Total Sales]) AS [Venta Total]
+FROM dbo.Adidas_US_2
+WHERE DATENAME(YEAR, [Invoice Date]) = 2020
+GROUP BY
+    [Sales Method]
+ORDER BY
+    SUM([Total Sales]) DESC
+
+-- TOP 3 Mejores métodos de venta en el 2021
+SELECT TOP 3 [Sales Method],
+    SUM([Total Sales]) AS [Venta Total]
+FROM dbo.Adidas_US_2
+WHERE DATENAME(YEAR, [Invoice Date]) = 2021
+GROUP BY 
+    [Sales Method]
+ORDER BY
+    SUM([Total Sales]) DESC;
+```
+<img src="./eda_img/eda8.png">
