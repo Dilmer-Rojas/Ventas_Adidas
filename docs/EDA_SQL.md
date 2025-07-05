@@ -140,5 +140,48 @@ ORDER BY
 ```
 <img src="./eda_img/eda6.png">
 
+```sql
+-- Principales Regiones, Estados y Ciudades en terminos de ventas en el 2021
+
+-- Region
+SELECT
+    TOP 1 [Region],
+    SUM([Total Sales]) AS [Venta Total]
+FROM
+    dbo.Adidas_US_2
+WHERE
+    DATENAME(YEAR, [Invoice Date]) = 2021
+GROUP BY
+    [Region]
+ORDER BY
+    SUM([Total Sales]) DESC
+
+-- Estado
+SELECT
+    TOP 1 [State],
+    SUM([Total Sales]) AS [Venta Total]
+FROM
+    dbo.Adidas_US_2
+WHERE
+    DATENAME(YEAR, [Invoice Date]) = 2021
+GROUP BY
+    [State]
+ORDER BY
+    SUM([Total Sales])
+
+-- Ciudad
+SELECT
+    TOP 1 [City],
+    SUM([Total Sales]) AS [Venta Total]
+FROM
+    dbo.Adidas_US_2
+WHERE
+    DATENAME(YEAR, [Invoice Date]) = 2021
+GROUP BY
+    [City]
+ORDER BY
+    SUM([Total Sales]) DESC;
+```
+<img src="./eda_img/eda7.png">
 
 #### ¿Cuáles son los 3 mejores métodos de venta?
