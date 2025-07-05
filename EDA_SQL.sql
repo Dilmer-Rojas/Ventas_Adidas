@@ -26,13 +26,13 @@ EXEC sp_help [dbo.Adidas_US_2]
 
 -- Cambiar el tipo de dato que necesitamos: No hay tipos de datos que cambiar
 
---  Total de ingresos por a�o --
-SELECT DATENAME(YEAR, [Invoice Date]) AS 'A�O',
+--  Total de ingresos por año --
+SELECT DATENAME(YEAR, [Invoice Date]) AS 'YEAR',
 	SUM([Total Sales]) AS [Ingresos Totales]
 FROM dbo.Adidas_US_2
 GROUP BY DATENAME(YEAR, [Invoice Date]);
 
--- Ingresos totales por mes en el a�o 2020
+-- Ingresos totales por mes en el año 2020
 SELECT 
     MONTH([Invoice Date]) AS MesNumero,
     DATENAME(MONTH, [Invoice Date]) AS 'MES',
@@ -44,7 +44,7 @@ GROUP BY
     DATENAME(MONTH, [Invoice Date])
 ORDER BY MesNumero;
 
--- Ingresos totales por mes en el a�o 2021
+-- Ingresos totales por mes en el año 2021
 SELECT
     MONTH([Invoice Date]) AS MesNumero,
     DATENAME(MONTH, [Invoice Date]) AS 'MES',
@@ -56,14 +56,14 @@ GROUP BY
     DATENAME(MONTH, [Invoice Date])
 ORDER BY MesNumero;
 
--- 5 mejores productos del a�o 2020
+-- 5 mejores productos del año 2020
 SELECT TOP 5 [Product],
     SUM([Total Sales]) AS [Venta Total]
 FROM dbo.Adidas_US_2
 WHERE DATENAME(YEAR, [Invoice Date]) = 2020
 GROUP BY [Product]
 ORDER BY SUM([Total Sales]) DESC
--- 5 mejores productos del a�o 2021
+-- 5 mejores productos del año 2021
 SELECT TOP 5 [Product],
     SUM([Total Sales]) AS [Venta Total]
 FROM dbo.Adidas_US_2
@@ -166,7 +166,7 @@ GROUP BY
 ORDER BY
     SUM([Total Sales]) DESC;
 
--- TOP 3 Mejores m�todos de venta en el 2020
+-- TOP 3 Mejores metodos de venta en el 2020
 SELECT TOP 3 [Sales Method],
     SUM([Total Sales]) AS [Venta Total]
 FROM dbo.Adidas_US_2
@@ -176,7 +176,7 @@ GROUP BY
 ORDER BY
     SUM([Total Sales]) DESC
 
--- TOP 3 Mejores m�todos de venta en el 2021
+-- TOP 3 Mejores metodos de venta en el 2021
 SELECT TOP 3 [Sales Method],
     SUM([Total Sales]) AS [Venta Total]
 FROM dbo.Adidas_US_2
