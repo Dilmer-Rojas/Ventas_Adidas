@@ -75,14 +75,14 @@ ORDER BY SUM([Total Sales]) DESC;
 #### ¿Cuál es el valor promedio de ventas diarias por minorista?
 
 ```sql
--- Promedio de ventas Diarias 2020
+-- Promedio de ventas Diarias en el 2020
 SELECT [Retailer],
     AVG([Total Sales]) AS [Promedio Ventas Diarias]
 FROM dbo.Adidas_US_2
 WHERE DATENAME(YEAR, [Invoice Date]) = 2020
 GROUP BY [Retailer]
 ORDER BY AVG([Total Sales]) DESC
--- Promedio de ventas Diarias 2021
+-- Promedio de ventas Diarias en el 2021
 SELECT [Retailer],
     AVG([Total Sales]) AS [Promedio Ventas Diarias]
 FROM dbo.Adidas_US_2
@@ -95,5 +95,47 @@ ORDER BY AVG([Total Sales]) DESC;
 ### Análisis del Cliente
 
 #### ¿Cuáles son las principales regiones, estados y ciudades en términos de ventas?
+
+```sql
+-- Principales Regiones, Estados y Ciudades en terminos de ventas en el 2020
+-- Region
+SELECT 
+    TOP 1 [Region],
+    SUM([Total Sales]) AS [Venta Total]
+FROM 
+    dbo.Adidas_US_2
+WHERE 
+    DATENAME(YEAR, [Invoice Date]) = 2020
+GROUP BY 
+    [Region]
+ORDER BY
+    SUM([Total Sales]) DESC
+
+-- Estado
+SELECT
+    TOP 1 [State],
+    SUM([Total Sales]) AS [Venta Total]
+FROM
+    dbo.Adidas_US_2
+WHERE
+    DATENAME(YEAR, [Invoice Date]) = 2020
+GROUP BY
+    [State]
+ORDER BY
+    SUM([Total Sales]) DESC
+
+-- Ciudad
+SELECT
+    TOP 1 [City],
+    SUM([Total Sales]) AS [Venta Total]
+FROM
+    dbo.Adidas_US_2
+WHERE
+    DATENAME(YEAR, [Invoice Date]) = 2020
+GROUP BY
+    [City]
+ORDER BY
+    SUM([Total Sales]) DESC;
+```
 
 #### ¿Cuáles son los 3 mejores métodos de venta?
