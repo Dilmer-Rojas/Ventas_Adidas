@@ -91,3 +91,9 @@ GROUP BY [Retailer]
 ORDER BY AVG([Total Sales]) DESC;
 ```
 <img src="./eda_img/eda5.png">
+
+### Análisis del Cliente
+
+#### ¿Cuáles son las principales regiones, estados y ciudades en términos de ventas?
+
+#### ¿Cuáles son los 3 mejores métodos de venta?
