@@ -98,6 +98,7 @@ ORDER BY AVG([Total Sales]) DESC;
 
 ```sql
 -- Principales Regiones, Estados y Ciudades en terminos de ventas en el 2020
+
 -- Region
 SELECT 
     TOP 1 [Region],
@@ -137,5 +138,7 @@ GROUP BY
 ORDER BY
     SUM([Total Sales]) DESC;
 ```
+<img src="./eda_img/eda6.png">
+
 
 #### ¿Cuáles son los 3 mejores métodos de venta?
