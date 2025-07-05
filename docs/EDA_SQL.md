@@ -51,3 +51,24 @@ GROUP BY
 ORDER BY MesNumero;
 ```
 <img src="./eda_img/eda3.png">
+
+#### ¿Cuáles son los 5 mejores productos a lo largo de los años? (SQL)
+
+```sql
+-- 5 mejores productos del año 2020
+SELECT TOP 5 [Product],
+    SUM([Total Sales]) AS [Venta Total]
+FROM dbo.Adidas_US_2
+WHERE DATENAME(YEAR, [Invoice Date]) = 2020
+GROUP BY [Product]
+ORDER BY SUM([Total Sales]) DESC
+-- 5 mejpres productos del año 2021
+SELECT TOP 5 [Product],
+    SUM([Total Sales]) AS [Venta Total]
+FROM dbo.Adidas_US_2
+WHERE DATENAME(YEAR, [Invoice Date]) = 2021
+GROUP BY [Product]
+ORDER BY SUM([Total Sales]) DESC;
+```
+<img src="./eda_img/eda4.png">
+
