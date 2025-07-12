@@ -6,7 +6,7 @@ La Limpieza y Verificación de los datos es fundamental para que el resultado fi
 
 Conjunto de Datos:
 
-<img src="Imagen1.png">
+<img src="../src/images/eda_img/Imagen1.png">
 
 ### Análisis de Ventas
 
@@ -18,7 +18,7 @@ SELECT DATENAME(YEAR, [Invoice Date]) AS 'AÑO',
 FROM dbo.Adidas_US_2
 GROUP BY DATENAME(YEAR, [Invoice Date]);
 ```
-<img src="./eda_img/eda1.png">
+<img src="../src/images/eda_img/eda1.png">
 
 #### ¿Cuáles son los ingresos totales generados por mes tanto para los años 2020 y 2021?
 
@@ -35,7 +35,7 @@ GROUP BY
     DATENAME(MONTH, [Invoice Date])
 ORDER BY MesNumero;
 ```
-<img src="./eda_img/eda2.png">
+<img src="../src/images/eda_img/eda2.png">
 
 ```sql
 -- Ingresos totales por mes en el año 2020
@@ -50,7 +50,7 @@ GROUP BY
     DATENAME(MONTH, [Invoice Date])
 ORDER BY MesNumero;
 ```
-<img src="./eda_img/eda3.png">
+<img src="../src/images/eda_img/eda3.png">
 
 #### ¿Cuáles son los 5 mejores productos a lo largo de los años?
 
@@ -70,7 +70,7 @@ WHERE DATENAME(YEAR, [Invoice Date]) = 2021
 GROUP BY [Product]
 ORDER BY SUM([Total Sales]) DESC;
 ```
-<img src="./eda_img/eda4.png">
+<img src="../src/images/eda_img/eda4.png">
 
 #### ¿Cuál es el valor promedio de ventas diarias por minorista?
 
@@ -90,7 +90,7 @@ WHERE DATENAME(YEAR, [Invoice Date]) = 2021
 GROUP BY [Retailer]
 ORDER BY AVG([Total Sales]) DESC;
 ```
-<img src="./eda_img/eda5.png">
+<img src="../src/images/eda_img/eda5.png">
 
 ### Análisis del Cliente
 
@@ -138,7 +138,7 @@ GROUP BY
 ORDER BY
     SUM([Total Sales]) DESC;
 ```
-<img src="./eda_img/eda6.png">
+<img src="../src/images/eda_img/eda6.png">
 
 ```sql
 -- Principales Regiones, Estados y Ciudades en terminos de ventas en el 2021
@@ -182,7 +182,7 @@ GROUP BY
 ORDER BY
     SUM([Total Sales]) DESC;
 ```
-<img src="./eda_img/eda7.png">
+<img src="../src/images/eda_img/eda7.png">
 
 #### ¿Cuáles son los 3 mejores métodos de venta?
 
@@ -207,4 +207,4 @@ GROUP BY
 ORDER BY
     SUM([Total Sales]) DESC;
 ```
-<img src="./eda_img/eda8.png">
+<img src="../src/images/eda_img/eda8.png">

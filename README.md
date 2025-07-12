@@ -1,7 +1,7 @@
 # Análisis de Ventas de Adidas en Estados Unidos
 
 <div style="text-align: center;">
-    <img src="./docs/image.png">
+    <img src="./src/images/image.png">
 </div>
 
 Este repositorio sirve como mi documentación para el Proyecto de análisis de datos exploratorios de ventas de Adidas en Estados Unidos.

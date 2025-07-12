@@ -6,4 +6,4 @@ scipy
 openpyxl
 ipython-sql 
 sqlalchemy
-pymysql
+pyodbc
