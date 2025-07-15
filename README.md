@@ -56,7 +56,6 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
 - ¿Cómo varía la rentabilidad según los diferentes métodos de venta? (SQL)
 
 
-
 ## Herramientas utilizadas
 
 Las herramientas que utilicé son:
@@ -64,12 +63,18 @@ Las herramientas que utilicé son:
 - SQL y Python para la manipulación y exploración de los datos.
 - Power BI para la visualización de los datos.
 
+## Limpieza | Data Cleaning (Python y SQL)
 
-## EDA (SQL y Python)
+[Notebook Data Cleaning - Python](./notebooks/Data_Cleaning_Python.ipynb) - Este notebook guarda un archivo excel limpio pero solo es para mostrar habilidades en python.
 
-Usamos SQL y Python para hacer el análisis exploratorio de datos, todo esto lo puedes encontrar en:
+[Archivo Data Cleaning - SQL](./sql/Data_Cleaning.sql) - Esto si se le da uso durante el análisis.
 
-[EDA](./notebooks/Adidas%20EDA.ipynb)
+## EDA (SQL)
+
+Usamos SQL para hacer el análisis exploratorio de datos, todo esto lo puedes encontrar en:
+
+[README EDA SQL](./sql/EDA_SQL.md)
+[ARCHIVO EDA SQL](./sql/EDA_SQL.sql)
 
 
 ## Visualización de Datos
