@@ -65,15 +65,16 @@ Las herramientas que utilicé son:
 
 ## Limpieza | Data Cleaning (Python y SQL)
 
-[Notebook Data Cleaning - Python](./notebooks/Data_Cleaning_Python.ipynb) - Este notebook guarda un archivo excel limpio pero solo es para mostrar habilidades en python.
+[Notebook Data Cleaning - Python](./notebooks/Data_Cleaning_Python.ipynb) - El notebook guarda un archivo excel limpio pero solo es para mostrar habilidades en python.
 
-[Archivo Data Cleaning - SQL](./sql/Data_Cleaning.sql) - Esto si se le da uso durante el análisis.
+[Archivo Data Cleaning - SQL](./sql/Data_Cleaning.sql) - Se le da uso durante el análisis.
 
 ## EDA (SQL)
 
 Usamos SQL para hacer el análisis exploratorio de datos, todo esto lo puedes encontrar en:
 
 [README EDA SQL](./sql/EDA_SQL.md)
+
 [ARCHIVO EDA SQL](./sql/EDA_SQL.sql)
 
 
