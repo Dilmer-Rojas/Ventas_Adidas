@@ -237,3 +237,30 @@ ORDER BY
     [Year];
 ```
 <img src="../src/images/eda_img/eda9.png">
+
+#### ¿Es más popular el producto para hombres o para mujeres?
+
+```sql
+-- 2020 & 2021
+SELECT
+    [Product by Gender],
+    [Year],
+    SUM([Units Sold]) AS [Total units sold]
+FROM (
+    SELECT
+        CASE
+            WHEN [Product] LIKE 'Men%' THEN 'Men'
+            WHEN [Product] LIKE 'Women%' THEN 'Women'
+        END AS [Product by Gender],
+        DATENAME(YEAR, [Invoice Date]) AS [Year],
+        [Units Sold]
+    FROM dbo.Adidas_US_2
+) AS subquery
+
+GROUP BY
+    [Product by Gender],
+    [Year]
+ORDER BY
+    [Year];
+```
+<img src="../src/images/eda_img/eda10.png">
