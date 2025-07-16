@@ -41,6 +41,12 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
 - ¿Cuáles son las principales regiones, estados y ciudades en términos de ventas? (SQL)
 - ¿Cuáles son los 3 mejores métodos de venta? (SQL)
 
+#### Análisis de Producto
+
+- ¿Qué categorías de productos son las más populares (ropa/calzado) (SQL)
+- ¿Es más popular el producto para hombres o para mujeres? (SQL)
+- ¿Cuales son los productos pedidos anualmente? (SQL)
+
 #### Análisis geográfico
 
 - ¿Cuáles son los mercados clave por región, estado y ciudad? (Power BI)

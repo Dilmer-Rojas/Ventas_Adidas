@@ -208,3 +208,32 @@ ORDER BY
     SUM([Total Sales]) DESC;
 ```
 <img src="../src/images/eda_img/eda8.png">
+
+### Análisis de Producto
+
+#### ¿Qué categorías de productos son las más populares (ropa/calzado)?
+
+```sql
+-- 2020 & 2021
+
+SELECT
+    [Product by categories],
+    [Year],
+    SUM([Units Sold]) AS [Total units sold]
+FROM (
+    SELECT
+        CASE
+            WHEN [Product] LIKE '%Apparel' THEN 'Apparel'
+            WHEN [Product] LIKE '%Footwear' THEN 'Footwear'
+        END AS [Product by categories],
+        DATENAME(YEAR, [Invoice Date]) AS [Year],
+        [Units Sold]
+    FROM dbo.Adidas_US_2
+) AS subquery
+GROUP BY
+    [Product by categories],
+    [Year]
+ORDER BY
+    [Year];
+```
+<img src="../src/images/eda_img/eda9.png">
