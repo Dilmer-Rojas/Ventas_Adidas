@@ -278,3 +278,172 @@ ORDER BY
     DATENAME(YEAR, [Invoice Date]);
 ```
 <img src="../src/images/eda_img/eda11.png">
+
+### Análisis de rentabilidad
+
+#### ¿Cuál es el margen de beneficio para diferentes productos o categorías?
+
+##### Por producto
+
+```sql
+SELECT
+    t1.[Product],
+    t1.[2020 Operating Margin %],
+    t2.[2021 Operating Margin %]
+FROM (
+    SELECT
+        [Product],
+        AVG([Operating Profit] / NULLIF([Total Sales], 0) * 100) AS [2020 Operating Margin %]
+    FROM dbo.Adidas_US_2
+    WHERE DATENAME(YEAR, [Invoice Date]) = '2020'
+    GROUP BY [Product]) AS t1
+JOIN
+    (SELECT
+        [Product],
+        AVG([Operating profit] / NULLIF([Total Sales], 0) * 100) AS [2021 Operating Margin %]
+    FROM dbo.Adidas_US_2
+    WHERE DATENAME(YEAR, [Invoice Date]) = '2021'
+    GROUP BY [Product]) AS t2
+ON t1.[Product] = t2.[Product];
+```
+
+<img src="../src/images/eda_img/eda12.png">
+
+##### Por categorías (4 mesas unidas)
+
+```sql
+SELECT
+    t1.[Categories],
+    t1.[2020 Men Operating Margin %],
+    t2.[2020 Women Operating Margin %],
+	t3.[2021 Men Operating Margin %],
+	t4.[2021 Women Operating Margin %]
+
+--t1-----------------------------------------------------------------------------------------
+FROM(
+		SELECT 
+				[Categories],
+				AVG([Operating Profit] / NULLIF([Total Sales], 0) * 100) AS [2020 Men Operating Margin %]
+		FROM			(SELECT 
+							CASE
+								WHEN [Product] LIKE 'Men%' THEN 'Men'
+								WHEN [Product] LIKE 'Women%' THEN 'Women'
+							END AS [Product by Gender],
+							CASE
+								WHEN [Product] LIKE '%Apparel%' THEN 'Apparel'
+								WHEN [Product] LIKE '%Footwear%' THEN 'Footwear'
+							END AS [Categories],
+							DATENAME(YEAR, [Invoice Date]) AS [Year],
+							[Operating Profit],
+							[Total Sales]
+						FROM dbo.Adidas_US_2
+		) AS subquery
+		WHERE	[Year] = '2020'
+		AND	[Product by Gender] = 'Men'
+		GROUP BY [Categories]
+) AS t1
+
+--t2-----------------------------------------------------------------------------
+JOIN(
+		SELECT 
+				[Categories],
+				AVG([Operating Profit] / NULLIF([Total Sales], 0) * 100) AS [2020 Women Operating Margin %]
+		FROM			(SELECT 
+							CASE
+								WHEN [Product] LIKE 'Men%' THEN 'Men'
+								WHEN [Product] LIKE 'Women%' THEN 'Women'
+							END AS [Product by Gender],
+							CASE
+								WHEN [Product] LIKE '%Apparel%' THEN 'Apparel'
+								WHEN [Product] LIKE '%Footwear%' THEN 'Footwear'
+							END AS [Categories],
+							DATENAME(YEAR, [Invoice Date]) AS [Year],
+							[Operating Profit],
+							[Total Sales]
+						FROM dbo.Adidas_US_2
+		) AS subquery
+		WHERE	[Year] = '2020'
+		AND	[Product by Gender] = 'Women'
+		GROUP BY [Categories]
+) AS t2
+
+ON t1.[Categories] = t2.[Categories]
+
+--t3-----------------------------------------------------------------------------
+
+JOIN(
+		SELECT 
+				[Categories],
+				AVG([Operating Profit] / NULLIF([Total Sales], 0) * 100) AS [2021 Men Operating Margin %]
+		FROM			(SELECT 
+							CASE
+								WHEN [Product] LIKE 'Men%' THEN 'Men'
+								WHEN [Product] LIKE 'Women%' THEN 'Women'
+							END AS [Product by Gender],
+							CASE
+								WHEN [Product] LIKE '%Apparel%' THEN 'Apparel'
+								WHEN [Product] LIKE '%Footwear%' THEN 'Footwear'
+							END AS [Categories],
+							DATENAME(YEAR, [Invoice Date]) AS [Year],
+							[Operating Profit],
+							[Total Sales]
+						FROM dbo.Adidas_US_2
+		) AS subquery
+		WHERE	[Year] = '2021'
+		AND	[Product by Gender] = 'Men'
+		GROUP BY [Categories]
+) AS t3
+
+ON t2.[Categories] = t3.[Categories]
+
+--t4--------------------------------------------------------------------------
+JOIN(
+		SELECT 
+				[Categories],
+				AVG([Operating Profit] / NULLIF([Total Sales], 0) * 100) AS [2021 Women Operating Margin %]
+		FROM			(SELECT 
+							CASE
+								WHEN [Product] LIKE 'Men%' THEN 'Men'
+								WHEN [Product] LIKE 'Women%' THEN 'Women'
+							END AS [Product by Gender],
+							CASE
+								WHEN [Product] LIKE '%Apparel%' THEN 'Apparel'
+								WHEN [Product] LIKE '%Footwear%' THEN 'Footwear'
+							END AS [Categories],
+							DATENAME(YEAR, [Invoice Date]) AS [Year],
+							[Operating Profit],
+							[Total Sales]
+						FROM dbo.Adidas_US_2
+		) AS subquery
+		WHERE	[Year] = '2021'
+		AND	[Product by Gender] = 'Women'
+		GROUP BY [Categories]
+) AS t4
+
+ON t3.[Categories] = t4.[Categories];
+```
+<img src="../src/images/eda_img/eda13.png">
+
+#### ¿Cómo varía la rentabilidad según los diferentes métodos de venta?
+
+```sql
+--2020
+
+SELECT	[Sales Method],
+		AVG([Operating Margin]*100) AS [2020 Operating Margin %]
+FROM	dbo.Adidas_US_2
+WHERE	DATENAME(YEAR, [Invoice Date]) = '2020'
+GROUP BY [Sales Method]
+ORDER BY [Sales Method]
+		
+
+--2021
+
+SELECT	[Sales Method],
+		AVG([Operating Margin]*100) AS [2021 Operating Margin %]
+FROM	dbo.Adidas_US_2
+WHERE	DATENAME(YEAR, [Invoice Date]) = '2021'
+GROUP BY [Sales Method]
+ORDER BY [Sales Method]
+```
+<img src="../src/images/eda_img/eda14.png">
