@@ -264,3 +264,17 @@ ORDER BY
     [Year];
 ```
 <img src="../src/images/eda_img/eda10.png">
+
+#### ¿Cual es el total de productos vendidos anualmente?
+
+```sql
+SELECT
+    DATENAME(YEAR, [Invoice Date]) AS [Year], 
+    SUM([Units Sold]) AS [Unit Sold]
+FROM dbo.Adidas_US_2
+GROUP BY
+    DATENAME(YEAR, [Invoice Date])
+ORDER BY
+    DATENAME(YEAR, [Invoice Date]);
+```
+<img src="../src/images/eda_img/eda11.png">

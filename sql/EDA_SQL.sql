@@ -235,7 +235,7 @@ GROUP BY
 ORDER BY
     [Year];
 
--- ¿Cuales son los productos pedidos anualmente?
+-- ¿Cual es el total de productos vendidos anualmente?
 SELECT
     DATENAME(YEAR, [Invoice Date]) AS [Year], 
     SUM([Units Sold]) AS [Unit Sold]
