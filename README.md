@@ -88,5 +88,5 @@ Usamos SQL para hacer el análisis exploratorio de datos, todo esto lo puedes en
 
 Usamos Power BI para la visualización de los datos, todo esto lo puedes encontrar en:
 
-[Visualizacion Power BI](./reports/readme.md)
+[Visualizacion Power BI](./reports/Reporte%20Adidas%20USA%20Sales.pdf)
 
