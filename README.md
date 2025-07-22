@@ -45,11 +45,15 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
 
 - ¿Qué categorías de productos son las más populares (ropa/calzado) (SQL)
 - ¿Es más popular el producto para hombres o para mujeres? (SQL)
-- ¿Cuales son los productos pedidos anualmente? (SQL)
+- ¿Cuáles son los productos pedidos anualmente? (SQL)
+- ¿Cuáles son los productos más vendidos? (Power BI)
+- ¿Cuál es la preferencia de productos por género (Power BI)
+- ¿Qué productos son más rentables? (Power BI)
 
 #### Análisis geográfico
 
 - ¿Cuáles son los mercados clave por región, estado y ciudad? (Power BI)
+- ¿Cuáles son las regiones/estados/ciudades con mayores ventas? (Power BI)
 - ¿Están mostrando crecimiento los mercados emergentes? (Power BI)
 
 #### Análisis estacional
@@ -58,11 +62,9 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
 
 #### Análisis de rentabilidad
 
-- ¿Cuál es el margen de beneficio para diferentes productos o categorías? (SQL)
-- ¿Cómo varía la rentabilidad según los diferentes métodos de venta? (SQL)
 - ¿Cuáles son los productos, métodos de venta o regiones más rentables? (Power BI)
-- ¿Que tan eficientes son los canales(método de venta)? (Power BI)
-- ¿Hay productos con ventas áltas pero margenes bajos? (Power BI)
+- ¿Qué tan eficientes son canales de venta? (Power BI)
+- ¿Hay productos con ventas altas pero márgenes bajos? (Power BI)
 
 ## Herramientas utilizadas
 
