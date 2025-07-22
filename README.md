@@ -62,6 +62,8 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
 
 #### Análisis de rentabilidad
 
+- ¿Cuál es el margen de beneficio para diferentes productos o categorías? (SQL)
+- ¿Cómo varía la rentabilidad según los diferentes métodos de venta? (SQL)
 - ¿Cuáles son los productos, métodos de venta o regiones más rentables? (Power BI)
 - ¿Qué tan eficientes son canales de venta? (Power BI)
 - ¿Hay productos con ventas altas pero márgenes bajos? (Power BI)
