@@ -38,7 +38,7 @@ ORDER BY MesNumero;
 <img src="../src/images/eda_img/eda2.png">
 
 ```sql
--- Ingresos totales por mes en el año 2020
+-- Ingresos totales por mes en el año 2021
 SELECT 
     MONTH([Invoice Date]) AS MesNumero,
     DATENAME(MONTH, [Invoice Date]) AS 'MES',
