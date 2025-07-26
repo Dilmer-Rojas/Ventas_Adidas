@@ -77,7 +77,7 @@ Las herramientas que utilicé son:
 
 ## Limpieza | Data Cleaning (Python y SQL)
 
-[Notebook Data Cleaning - Python](./notebooks/Data_Cleaning_Python.ipynb) - El notebook guarda un archivo excel limpio pero solo es para mostrar habilidades en python.
+[Notebook Data Cleaning - Python](./notebooks/Data_Cleaning_Python.ipynb) - El notebook guarda un archivo csv limpio pero solo es para mostrar habilidades en python.
 
 [Archivo Data Cleaning - SQL](./sql/Data_Cleaning.sql) - Se le da uso durante el análisis.
 
