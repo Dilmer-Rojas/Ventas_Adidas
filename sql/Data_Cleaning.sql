@@ -9,7 +9,7 @@ USE Adidas_US_Sales;
 -- SET Operating_Margin = 
 --    CASE 
 --       WHEN total_sales IS NULL OR total_sales = 0 THEN NULL
---        ELSE (operating_profit / total_sales)
+--        ELSE (operating_profit / total_sales) * 100
 --    END;
 
 SELECT * FROM Adidas_US;
@@ -73,7 +73,7 @@ DELETE
 FROM dbo.Adidas_US_2
 WHERE row_num > 1;
 
-/* Se vió que no hay duplicados */
+/* Se viï¿½ que no hay duplicados */
 
 /* -- Valores Null & Blank -- */
 	/* Identificando Valores Null*/
