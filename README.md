@@ -231,10 +231,28 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
 
 - ¿Existen tendencias estacionales en las ventas relacionadas con festividades o días festivos? (Power BI)
 
+    - En 2020 no hubo muchas ventas por el motivo de la pandemia de COVID-19.
+    - En 2021 hubo mayores ventas en Julio y Diciembre (Navidad).
+
 #### Análisis de rentabilidad
 
 - ¿Cuál es el margen de beneficio para diferentes productos o categorías? (SQL)
+
+    - Apparel -> 28.07% de beneficio o margen operativo.
+    - Footwear -> 27.41% de beneficio o margen operativo.
+
 - ¿Cómo varía la rentabilidad según los diferentes métodos de venta? (SQL)
+
+    - In-store lidera con un porcentaje de 35% de rentabilidad y las demás como Outlet y Online no baja del 20% de rentabilidad (es decir no hay mucha diferencia y son rentables estos métodos, pero a pesar de eso hay que mejorar en ellos).
+
 - ¿Cuáles son los productos, métodos de venta o regiones más rentables? (Power BI)
-- ¿Qué tan eficientes son canales de venta? (Power BI)
+
+    - Alabama y Michigan son los estados más rentables con  más del 35%.
+
+- ¿Qué tan eficientes son los canales de venta? (Power BI)
+
+    - 
+
 - ¿Hay productos con ventas altas pero márgenes bajos? (Power BI)
+
+    - 
