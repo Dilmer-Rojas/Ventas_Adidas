@@ -106,7 +106,7 @@ Claro, aquí tienes tu README mejorado, con correcciones de estilo, redacción m
 
 
 
-## 📊 Respuestas a Preguntas Clave
+## Respuestas a Preguntas Clave
 
 Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clave que permiten comprender el comportamiento del negocio, el perfil de los clientes y la rentabilidad de los productos. A continuación, se presentan los hallazgos clasificados por tipo de análisis:
 
