@@ -6,7 +6,7 @@
 
 Este repositorio sirve como mi documentación para el Proyecto de análisis de datos exploratorios de ventas de Adidas en Estados Unidos.
 
-Todo el proyecto se implementó utilizando Python 3 en Jupyter Notebook, MySQL Workbench y Microsoft Power BI Desktop y se publicó en Microsoft Power BI Service.
+Todo el proyecto se implementó utilizando Python 3 en Jupyter Notebook, SQL Server y Microsoft Power BI Desktop y se publicó en Microsoft Power BI Service.
 
 
 ## Contenido
@@ -18,6 +18,7 @@ Todo el proyecto se implementó utilizando Python 3 en Jupyter Notebook, MySQL W
 - [Herramientas Utilizadas](#herramientas-utilizadas)
 - [EDA SQL y Python](#eda-sql-y-python)
 - [Visualización de Datos](#visualización-de-datos)
+- [Respuestas a Preguntas Clave](#respuestas-a-preguntas-clave)
 
 ## Objetivo del proyecto
 
@@ -99,3 +100,48 @@ Usamos Power BI para la visualización de los datos, todo esto lo puedes encontr
 [Archivo Dashboard Power BI](./dashboard/Reporte%20Adidas%20USA%20Sales.pbix)
 
 [LINK Dashboard Power BI](https://app.powerbi.com/groups/me/reports/47584f11-b20c-4b6f-9142-c29f7d861a58/ee61dbf363ab37347ac6?experience=power-bi)
+
+
+## Respuestas a Preguntas Clave
+
+Durante el análisis, busqué respuestas a las siguientes preguntas:
+
+#### Análisis de ventas
+
+- ¿Cuáles son los ingresos totales generados por año? (SQL)
+- ¿Cuáles son los ingresos totales generados por mes tanto para los años 2020 y 2021? (SQL)
+- ¿Cuáles son los 5 mejores productos a lo largo de los años? (SQL)
+- ¿Cuál es el valor promedio de ventas diarias por minorista? (SQL)
+- ¿Cuál es el período de máximas ventas? (Power BI)
+
+#### Análisis del cliente
+
+- ¿Cuáles son las principales regiones, estados y ciudades en términos de ventas? (SQL)
+- ¿Cuáles son los 3 mejores métodos de venta? (SQL)
+
+#### Análisis de Producto
+
+- ¿Qué categorías de productos son las más populares (ropa/calzado) (SQL)
+- ¿Es más popular el producto para hombres o para mujeres? (SQL)
+- ¿Cuáles son los productos pedidos anualmente? (SQL)
+- ¿Cuáles son los productos más vendidos? (Power BI)
+- ¿Cuál es la preferencia de productos por género (Power BI)
+- ¿Qué productos son más rentables? (Power BI)
+
+#### Análisis geográfico
+
+- ¿Cuáles son los mercados clave por región, estado y ciudad? (Power BI)
+- ¿Cuáles son las regiones/estados/ciudades con mayores ventas? (Power BI)
+- ¿Están mostrando crecimiento los mercados emergentes? (Power BI)
+
+#### Análisis estacional
+
+- ¿Existen tendencias estacionales en las ventas relacionadas con festividades o días festivos? (Power BI)
+
+#### Análisis de rentabilidad
+
+- ¿Cuál es el margen de beneficio para diferentes productos o categorías? (SQL)
+- ¿Cómo varía la rentabilidad según los diferentes métodos de venta? (SQL)
+- ¿Cuáles son los productos, métodos de venta o regiones más rentables? (Power BI)
+- ¿Qué tan eficientes son canales de venta? (Power BI)
+- ¿Hay productos con ventas altas pero márgenes bajos? (Power BI)
