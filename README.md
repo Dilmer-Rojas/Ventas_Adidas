@@ -198,7 +198,15 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
     - Women's Apparel (2) -> 2.3 Millones de ventas
 
 - ¿Cuál es la preferencia de productos por género (Power BI)
+
+    - **Los hombres prefieren** comprar productos como `Men's Street Footwear` por encima de Men's Athletic Footwear y Men's Apparel.
+    - **Las mujeres prefieren** comprar productos como `Women's Apparel` por encima de Women's Street Footwear y Women's Athletic Footwear.
+
 - ¿Qué productos son más rentables? (Power BI)
+
+    - `Men's Street Footwear` (1)
+    - `Women's Apparel` (2)
+
 
 #### Análisis geográfico
 
