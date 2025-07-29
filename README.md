@@ -106,24 +106,24 @@ Claro, aquí tienes tu README mejorado, con correcciones de estilo, redacción m
 
 
 
-# 📊 Respuestas a Preguntas Clave
+## 📊 Respuestas a Preguntas Clave
 
 Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clave que permiten comprender el comportamiento del negocio, el perfil de los clientes y la rentabilidad de los productos. A continuación, se presentan los hallazgos clasificados por tipo de análisis:
 
 
 
-## 🛒 Análisis de Ventas
+### 🛒 Análisis de Ventas
 
-### 💰 ¿Cuáles son los ingresos totales generados por año? *(SQL)*
+#### 💰 ¿Cuáles son los ingresos totales generados por año? *(SQL)*
 
 * **2020:** 24 millones de dólares
 * **2021:** 95 millones de dólares
 
 
 
-### 📆 ¿Cuáles son los ingresos mensuales en 2020 y 2021? *(SQL)*
+#### 📆 ¿Cuáles son los ingresos mensuales en 2020 y 2021? *(SQL)*
 
-#### 🔹 Año 2020:
+##### 🔹 Año 2020:
 
 * **Enero:** 2.31 M
 * **Febrero:** 2.14 M
@@ -138,7 +138,7 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 * **Noviembre:** 1.10 M
 * **Diciembre:** 1.02 M
 
-#### 🔹 Año 2021:
+##### 🔹 Año 2021:
 
 * **Enero:** 7.39 M
 * **Febrero:** 6.10 M
@@ -155,7 +155,7 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 
 
 
-### 🥇 ¿Cuáles son los 5 productos más vendidos a lo largo del tiempo? *(SQL)*
+#### 🥇 ¿Cuáles son los 5 productos más vendidos a lo largo del tiempo? *(SQL)*
 
 1. Men's Street Footwear
 2. Women's Apparel
@@ -165,21 +165,21 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 
 
 
-### 📈 ¿Cuál es el valor promedio de ventas diarias por minorista? *(SQL)*
+#### 📈 ¿Cuál es el valor promedio de ventas diarias por minorista? *(SQL)*
 
 * **165.7 mil dólares por día**
 
 
 
-### 🔥 ¿Cuál fue el período con mayores ventas? *(Power BI)*
+#### 🔥 ¿Cuál fue el período con mayores ventas? *(Power BI)*
 
 * **Julio de 2021** con más de **10 millones de dólares** en ingresos
 
 
 
-## 👥 Análisis del Cliente
+### 👥 Análisis del Cliente
 
-### 🌎 ¿Cuáles son las principales regiones, estados y ciudades en ventas? *(SQL)*
+#### 🌎 ¿Cuáles son las principales regiones, estados y ciudades en ventas? *(SQL)*
 
 * **Noreste:** New York – 8.6 M
 * **Sudeste:** Florida – 7.8 M
@@ -187,7 +187,7 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 
 
 
-### 🛍️ ¿Cuáles son los 3 métodos de venta más rentables? *(SQL)*
+#### 🛍️ ¿Cuáles son los 3 métodos de venta más rentables? *(SQL)*
 
 1. **In-store:** 35.78% de rentabilidad
 2. **Outlet:** 27.29%
@@ -195,51 +195,51 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 
 
 
-## 🧢 Análisis de Producto
+### 🧢 Análisis de Producto
 
-### 📊 ¿Qué categoría de productos es la más popular? *(SQL)*
+#### 📊 ¿Qué categoría de productos es la más popular? *(SQL)*
 
 * **Calzado** (Footwear) lidera en popularidad.
 
 
 
-### 🧑‍🤝‍🧑 ¿Es más popular el producto masculino o femenino? *(SQL)*
+#### 🧑‍🤝‍🧑 ¿Es más popular el producto masculino o femenino? *(SQL)*
 
 * Los productos para **hombres** son más populares.
 
 
 
-### 📦 ¿Cuántos productos se vendieron por año? *(SQL)*
+#### 📦 ¿Cuántos productos se vendieron por año? *(SQL)*
 
 * **2020:** 460 mil unidades
 * **2021:** más de 2 millones de unidades
 
 
 
-### ⭐ ¿Cuáles son los productos más vendidos? *(Power BI)*
+#### ⭐ ¿Cuáles son los productos más vendidos? *(Power BI)*
 
 1. **Men's Street Footwear:** 2.7 M unidades
 2. **Women's Apparel:** 2.3 M unidades
 
 
 
-### 🧍‍♂️🧍‍♀️ ¿Cuál es la preferencia de productos por género? *(Power BI)*
+#### 🧍‍♂️🧍‍♀️ ¿Cuál es la preferencia de productos por género? *(Power BI)*
 
 * **Hombres:** Prefieren `Men's Street Footwear`, seguido de Men's Athletic Footwear y Men's Apparel.
 * **Mujeres:** Prefieren `Women's Apparel`, seguido de Women's Street Footwear y Women's Athletic Footwear.
 
 
 
-### 💹 ¿Qué productos son más rentables? *(Power BI)*
+#### 💹 ¿Qué productos son más rentables? *(Power BI)*
 
 1. `Men's Street Footwear`
 2. `Women's Apparel`
 
 
 
-## 🌐 Análisis Geográfico
+### 🌐 Análisis Geográfico
 
-### 🗺️ ¿Cuáles son los mercados clave por región/estado/ciudad? *(Power BI)*
+#### 🗺️ ¿Cuáles son los mercados clave por región/estado/ciudad? *(Power BI)*
 
 * **Foot Locker:** New York
 * **Kohl's:** California
@@ -247,58 +247,57 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 
 
 
-### 📍 ¿Dónde se concentran las mayores ventas? *(Power BI)*
+#### 📍 ¿Dónde se concentran las mayores ventas? *(Power BI)*
 
 * **Estados:** New York, California y Florida
 
 
 
-### 📈 ¿Están creciendo los mercados emergentes? *(Power BI)*
+#### 📈 ¿Están creciendo los mercados emergentes? *(Power BI)*
 
 * **Philadelphia (PA):** +894.6% entre 2020 y 2021
 * **San Francisco (CA):** +206.46% entre 2020 y 2021
 
 
 
-## 🗓️ Análisis Estacional
+### 🗓️ Análisis Estacional
 
-### 🎄 ¿Existen tendencias estacionales por festividades? *(Power BI)*
+#### 🎄 ¿Existen tendencias estacionales por festividades? *(Power BI)*
 
 * **2020:** Pocas ventas por efecto de la pandemia
 * **2021:** Picos en **julio** (verano) y **diciembre** (Navidad)
 
 
 
-## 💵 Análisis de Rentabilidad
+### 💵 Análisis de Rentabilidad
 
-### 📊 ¿Cuál es el margen de beneficio por categoría? *(SQL)*
+#### 📊 ¿Cuál es el margen de beneficio por categoría? *(SQL)*
 
 * **Apparel (ropa):** 28.07%
 * **Footwear (calzado):** 27.41%
 
 
 
-### 🛒 ¿Cómo varía la rentabilidad por método de venta? *(SQL)*
+#### 🛒 ¿Cómo varía la rentabilidad por método de venta? *(SQL)*
 
 * **In-store** lidera con un **35%** de rentabilidad.
 * **Outlet** y **Online** tienen también más del 20%, aunque hay oportunidades de mejora.
 
 
 
-### 🥇 ¿Qué productos, métodos o regiones son más rentables? *(Power BI)*
+#### 🥇 ¿Qué productos, métodos o regiones son más rentables? *(Power BI)*
 
 * **Estados más rentables:** Alabama y Michigan, ambos con más del 35%.
 
 
 
-### 📦 ¿Qué tan eficientes son los canales de venta? *(Power BI)*
+#### 📦 ¿Qué tan eficientes son los canales de venta? *(Power BI)*
 
 * **In-store:** Mayor rentabilidad, pero menos volumen de ventas.
 * **Online:** Mayor volumen de ventas, pero menor rentabilidad.
 
 
 
-### ⚠️ ¿Hay productos con muchas ventas pero bajo margen? *(Power BI)*
+#### ⚠️ ¿Hay productos con muchas ventas pero bajo margen? *(Power BI)*
 
 * **Men's Athletic Footwear:** Más de **20 millones en ventas**, pero con el **menor margen operativo** (25%).
-
