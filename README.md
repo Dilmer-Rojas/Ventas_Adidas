@@ -180,9 +180,23 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
 #### Análisis de Producto
 
 - ¿Qué categorías de productos son las más populares (ropa/calzado) (SQL)
+
+    - Calzado es la categoría más popular.
+
 - ¿Es más popular el producto para hombres o para mujeres? (SQL)
-- ¿Cuáles son los productos pedidos anualmente? (SQL)
+
+    - El producto para hombres.
+
+- ¿Cuál es el total de productos vendidos anualmente? (SQL)
+
+    - 2020: 460 Mil productos vendidos.
+    - 2021: +2 Millones de productos vendidos.
+
 - ¿Cuáles son los productos más vendidos? (Power BI)
+
+    - Men's Street Footwear (1) -> 2.7 Millones de ventas
+    - Women's Apparel (2) -> 2.3 Millones de ventas
+
 - ¿Cuál es la preferencia de productos por género (Power BI)
 - ¿Qué productos son más rentables? (Power BI)
 
