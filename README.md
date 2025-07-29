@@ -126,18 +126,18 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
         - NOVIEMBRE -> 1.1 Millones de dólares
         - DICIEMBRE -> 1.02 Millones de dólares
     - 2021
-        - ENERO -> 2.3 Millones de dólares
-        - FEBRERO ->
-        - MARZO ->
-        - ABRIL ->
-        - MAYO ->
-        - JUNIO ->
-        - JULIO ->
-        - AGOSTO ->
-        - SEPTIEMBRE ->
-        - OCTUBRE ->
-        - NOVIEMBRE ->
-        - DICIEMBRE ->
+        - ENERO -> 7.39 Millones de dólares
+        - FEBRERO -> 6.1 Millones de dólares
+        - MARZO -> 5.2 Millones de dólares
+        - ABRIL -> 6.4 Millones de dólares
+        - MAYO -> 8.5 Millones de dólares
+        - JUNIO -> 8.6 Millones de dólares
+        - JULIO -> 10.36 Millones de dólares
+        - AGOSTO -> 9.6 Millones de dólares
+        - SEPTIEMBRE -> 8.0 Millones de dólares
+        - OCTUBRE -> 7.1 Millones de dólares
+        - NOVIEMBRE -> 7.8 Millones de dólares
+        - DICIEMBRE -> 10.33 Millones de dólares
 - ¿Cuáles son los 5 mejores productos a lo largo de los años? (SQL)
 - ¿Cuál es el valor promedio de ventas diarias por minorista? (SQL)
 - ¿Cuál es el período de máximas ventas? (Power BI)
