@@ -211,8 +211,21 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
 #### Análisis geográfico
 
 - ¿Cuáles son los mercados clave por región, estado y ciudad? (Power BI)
+
+    - Foot Locker -> New York
+    - Kohl's -> California
+    - Walmart -> Florida
+
 - ¿Cuáles son las regiones/estados/ciudades con mayores ventas? (Power BI)
+
+    - New York
+    - California
+    - Florida
+
 - ¿Están mostrando crecimiento los mercados emergentes? (Power BI)
+
+    - Philadelphia (PA): crecimiento del 894.60% entre 2020 y 2021.
+    - San Francisco (CA): crecimiento del 206.46% entre 2020 y 2021.
 
 #### Análisis estacional
 
