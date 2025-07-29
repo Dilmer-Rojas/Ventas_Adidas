@@ -109,9 +109,13 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
 #### Análisis de ventas
 
 - ¿Cuáles son los ingresos totales generados por año? (SQL)
+
     - En 2020 los ingresos totales fueron de 24 Millones de dólares.
     - En 2021 los ingresos totales fueron de 95 Millones de dólares.
+
+
 - ¿Cuáles son los ingresos totales generados por mes tanto para los años 2020 y 2021? (SQL)
+
     - 2020
         - ENERO -> 2.31 Millones de dólares
         - FEBRERO -> 2.14 Millones de dólares
@@ -125,6 +129,8 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
         - OCTUBRE -> 1.4 Millones de dólares
         - NOVIEMBRE -> 1.1 Millones de dólares
         - DICIEMBRE -> 1.02 Millones de dólares
+
+
     - 2021
         - ENERO -> 7.39 Millones de dólares
         - FEBRERO -> 6.1 Millones de dólares
@@ -138,7 +144,12 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
         - OCTUBRE -> 7.1 Millones de dólares
         - NOVIEMBRE -> 7.8 Millones de dólares
         - DICIEMBRE -> 10.33 Millones de dólares
+
+
 - ¿Cuáles son los 5 mejores productos a lo largo de los años? (SQL)
+
+
+
 - ¿Cuál es el valor promedio de ventas diarias por minorista? (SQL)
 - ¿Cuál es el período de máximas ventas? (Power BI)
 
