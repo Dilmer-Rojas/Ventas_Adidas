@@ -148,15 +148,34 @@ Durante el análisis, busqué respuestas a las siguientes preguntas:
 
 - ¿Cuáles son los 5 mejores productos a lo largo de los años? (SQL)
 
+    - Men's Street Footwear (1)
+    - Women's Apparel (2)
+    - Men's Athletic Footwear (3)
+    - Women's Street Footwear (4)
+    - Men's Apparel (5)
 
 
 - ¿Cuál es el valor promedio de ventas diarias por minorista? (SQL)
+
+    - 165.7 Mil dólares
+
 - ¿Cuál es el período de máximas ventas? (Power BI)
+
+    - En julio del 2021 con + 10 Millones de dólares en ingresos.
 
 #### Análisis del cliente
 
 - ¿Cuáles son las principales regiones, estados y ciudades en términos de ventas? (SQL)
+
+    - Noreste -> New York -> 8.6 Millones en ventas.
+    - Sudeste -> Florida -> 7.8 Millones en ventas.
+    - Oeste -> California -> 8.4 Millones en ventas.
+
 - ¿Cuáles son los 3 mejores métodos de venta? (SQL)
+
+    - In-store (1) -> 35.78% Rentable.
+    - Outlet (2) -> 27.29% Rentable.
+    - Online (3) -> 21.47% Rentable.
 
 #### Análisis de Producto
 
