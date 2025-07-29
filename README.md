@@ -102,157 +102,204 @@ Usamos Power BI para la visualización de los datos, todo esto lo puedes encontr
 [LINK Dashboard Power BI](https://app.powerbi.com/groups/me/reports/47584f11-b20c-4b6f-9142-c29f7d861a58/ee61dbf363ab37347ac6?experience=power-bi)
 
 
-## Respuestas a Preguntas Clave
+Claro, aquí tienes tu README mejorado, con correcciones de estilo, redacción más profesional, organización más clara, y mayor cohesión visual y estructural. También he añadido pequeños ajustes para una mejor lectura y presentación general:
 
-Durante el análisis, busqué respuestas a las siguientes preguntas:
+---
 
-#### Análisis de ventas
+# 📊 Respuestas a Preguntas Clave
 
-- ¿Cuáles son los ingresos totales generados por año? (SQL)
+Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clave que permiten comprender el comportamiento del negocio, el perfil de los clientes y la rentabilidad de los productos. A continuación, se presentan los hallazgos clasificados por tipo de análisis:
 
-    - En 2020 los ingresos totales fueron de 24 Millones de dólares.
-    - En 2021 los ingresos totales fueron de 95 Millones de dólares.
+---
 
+## 🛒 Análisis de Ventas
 
-- ¿Cuáles son los ingresos totales generados por mes tanto para los años 2020 y 2021? (SQL)
+### 💰 ¿Cuáles son los ingresos totales generados por año? *(SQL)*
 
-    - 2020
-        - ENERO -> 2.31 Millones de dólares
-        - FEBRERO -> 2.14 Millones de dólares
-        - MARZO -> 2.4 Millones de dólares
-        - ABRIL -> 3.1 Millones de dólares
-        - MAYO -> 2.16 Millones de dólares
-        - JUNIO -> 1.08 Millones de dólares
-        - JULIO -> 2.15 Millones de dólares
-        - AGOSTO -> 2.6 Millones de dólares
-        - SEPTIEMBRE -> 2.36 Millones de dólares
-        - OCTUBRE -> 1.4 Millones de dólares
-        - NOVIEMBRE -> 1.1 Millones de dólares
-        - DICIEMBRE -> 1.02 Millones de dólares
+* **2020:** 24 millones de dólares
+* **2021:** 95 millones de dólares
 
+---
 
-    - 2021
-        - ENERO -> 7.39 Millones de dólares
-        - FEBRERO -> 6.1 Millones de dólares
-        - MARZO -> 5.2 Millones de dólares
-        - ABRIL -> 6.4 Millones de dólares
-        - MAYO -> 8.5 Millones de dólares
-        - JUNIO -> 8.6 Millones de dólares
-        - JULIO -> 10.36 Millones de dólares
-        - AGOSTO -> 9.6 Millones de dólares
-        - SEPTIEMBRE -> 8.0 Millones de dólares
-        - OCTUBRE -> 7.1 Millones de dólares
-        - NOVIEMBRE -> 7.8 Millones de dólares
-        - DICIEMBRE -> 10.33 Millones de dólares
+### 📆 ¿Cuáles son los ingresos mensuales en 2020 y 2021? *(SQL)*
 
+#### 🔹 Año 2020:
 
-- ¿Cuáles son los 5 mejores productos a lo largo de los años? (SQL)
+* **Enero:** 2.31 M
+* **Febrero:** 2.14 M
+* **Marzo:** 2.40 M
+* **Abril:** 3.10 M
+* **Mayo:** 2.16 M
+* **Junio:** 1.08 M
+* **Julio:** 2.15 M
+* **Agosto:** 2.60 M
+* **Septiembre:** 2.36 M
+* **Octubre:** 1.40 M
+* **Noviembre:** 1.10 M
+* **Diciembre:** 1.02 M
 
-    - Men's Street Footwear (1)
-    - Women's Apparel (2)
-    - Men's Athletic Footwear (3)
-    - Women's Street Footwear (4)
-    - Men's Apparel (5)
+#### 🔹 Año 2021:
 
+* **Enero:** 7.39 M
+* **Febrero:** 6.10 M
+* **Marzo:** 5.20 M
+* **Abril:** 6.40 M
+* **Mayo:** 8.50 M
+* **Junio:** 8.60 M
+* **Julio:** 10.36 M
+* **Agosto:** 9.60 M
+* **Septiembre:** 8.00 M
+* **Octubre:** 7.10 M
+* **Noviembre:** 7.80 M
+* **Diciembre:** 10.33 M
 
-- ¿Cuál es el valor promedio de ventas diarias por minorista? (SQL)
+---
 
-    - 165.7 Mil dólares
+### 🥇 ¿Cuáles son los 5 productos más vendidos a lo largo del tiempo? *(SQL)*
 
-- ¿Cuál es el período de máximas ventas? (Power BI)
+1. Men's Street Footwear
+2. Women's Apparel
+3. Men's Athletic Footwear
+4. Women's Street Footwear
+5. Men's Apparel
 
-    - En julio del 2021 con + 10 Millones de dólares en ingresos.
+---
 
-#### Análisis del cliente
+### 📈 ¿Cuál es el valor promedio de ventas diarias por minorista? *(SQL)*
 
-- ¿Cuáles son las principales regiones, estados y ciudades en términos de ventas? (SQL)
+* **165.7 mil dólares por día**
 
-    - Noreste -> New York -> 8.6 Millones en ventas.
-    - Sudeste -> Florida -> 7.8 Millones en ventas.
-    - Oeste -> California -> 8.4 Millones en ventas.
+---
 
-- ¿Cuáles son los 3 mejores métodos de venta? (SQL)
+### 🔥 ¿Cuál fue el período con mayores ventas? *(Power BI)*
 
-    - In-store (1) -> 35.78% Rentable.
-    - Outlet (2) -> 27.29% Rentable.
-    - Online (3) -> 21.47% Rentable.
+* **Julio de 2021** con más de **10 millones de dólares** en ingresos
 
-#### Análisis de Producto
+---
 
-- ¿Qué categorías de productos son las más populares (ropa/calzado) (SQL)
+## 👥 Análisis del Cliente
 
-    - Calzado es la categoría más popular.
+### 🌎 ¿Cuáles son las principales regiones, estados y ciudades en ventas? *(SQL)*
 
-- ¿Es más popular el producto para hombres o para mujeres? (SQL)
+* **Noreste:** New York – 8.6 M
+* **Sudeste:** Florida – 7.8 M
+* **Oeste:** California – 8.4 M
 
-    - El producto para hombres.
+---
 
-- ¿Cuál es el total de productos vendidos anualmente? (SQL)
+### 🛍️ ¿Cuáles son los 3 métodos de venta más rentables? *(SQL)*
 
-    - 2020: 460 Mil productos vendidos.
-    - 2021: +2 Millones de productos vendidos.
+1. **In-store:** 35.78% de rentabilidad
+2. **Outlet:** 27.29%
+3. **Online:** 21.47%
 
-- ¿Cuáles son los productos más vendidos? (Power BI)
+---
 
-    - Men's Street Footwear (1) -> 2.7 Millones de ventas
-    - Women's Apparel (2) -> 2.3 Millones de ventas
+## 🧢 Análisis de Producto
 
-- ¿Cuál es la preferencia de productos por género (Power BI)
+### 📊 ¿Qué categoría de productos es la más popular? *(SQL)*
 
-    - **Los hombres prefieren** comprar productos como `Men's Street Footwear` por encima de Men's Athletic Footwear y Men's Apparel.
-    - **Las mujeres prefieren** comprar productos como `Women's Apparel` por encima de Women's Street Footwear y Women's Athletic Footwear.
+* **Calzado** (Footwear) lidera en popularidad.
 
-- ¿Qué productos son más rentables? (Power BI)
+---
 
-    - `Men's Street Footwear` (1)
-    - `Women's Apparel` (2)
+### 🧑‍🤝‍🧑 ¿Es más popular el producto masculino o femenino? *(SQL)*
 
+* Los productos para **hombres** son más populares.
 
-#### Análisis geográfico
+---
 
-- ¿Cuáles son los mercados clave por región, estado y ciudad? (Power BI)
+### 📦 ¿Cuántos productos se vendieron por año? *(SQL)*
 
-    - Foot Locker -> New York
-    - Kohl's -> California
-    - Walmart -> Florida
+* **2020:** 460 mil unidades
+* **2021:** más de 2 millones de unidades
 
-- ¿Cuáles son las regiones/estados/ciudades con mayores ventas? (Power BI)
+---
 
-    - New York
-    - California
-    - Florida
+### ⭐ ¿Cuáles son los productos más vendidos? *(Power BI)*
 
-- ¿Están mostrando crecimiento los mercados emergentes? (Power BI)
+1. **Men's Street Footwear:** 2.7 M unidades
+2. **Women's Apparel:** 2.3 M unidades
 
-    - Philadelphia (PA): crecimiento del 894.60% entre 2020 y 2021.
-    - San Francisco (CA): crecimiento del 206.46% entre 2020 y 2021.
+---
 
-#### Análisis estacional
+### 🧍‍♂️🧍‍♀️ ¿Cuál es la preferencia de productos por género? *(Power BI)*
 
-- ¿Existen tendencias estacionales en las ventas relacionadas con festividades o días festivos? (Power BI)
+* **Hombres:** Prefieren `Men's Street Footwear`, seguido de Men's Athletic Footwear y Men's Apparel.
+* **Mujeres:** Prefieren `Women's Apparel`, seguido de Women's Street Footwear y Women's Athletic Footwear.
 
-    - En 2020 no hubo muchas ventas por el motivo de la pandemia de COVID-19.
-    - En 2021 hubo mayores ventas en Julio y Diciembre (Navidad).
+---
 
-#### Análisis de rentabilidad
+### 💹 ¿Qué productos son más rentables? *(Power BI)*
 
-- ¿Cuál es el margen de beneficio para diferentes productos o categorías? (SQL)
+1. `Men's Street Footwear`
+2. `Women's Apparel`
 
-    - Apparel -> 28.07% de beneficio o margen operativo.
-    - Footwear -> 27.41% de beneficio o margen operativo.
+---
 
-- ¿Cómo varía la rentabilidad según los diferentes métodos de venta? (SQL)
+## 🌐 Análisis Geográfico
 
-    - In-store lidera con un porcentaje de 35% de rentabilidad y las demás como Outlet y Online no baja del 20% de rentabilidad (es decir no hay mucha diferencia y son rentables estos métodos, pero a pesar de eso hay que mejorar en ellos).
+### 🗺️ ¿Cuáles son los mercados clave por región/estado/ciudad? *(Power BI)*
 
-- ¿Cuáles son los productos, métodos de venta o regiones más rentables? (Power BI)
+* **Foot Locker:** New York
+* **Kohl's:** California
+* **Walmart:** Florida
 
-    - Alabama y Michigan son los estados más rentables con  más del 35%.
+---
 
-- ¿Qué tan eficientes son los canales de venta? (Power BI)
+### 📍 ¿Dónde se concentran las mayores ventas? *(Power BI)*
 
-    - 
+* **Estados:** New York, California y Florida
 
-- ¿Hay productos con ventas altas pero márgenes bajos? (Power BI)
+---
 
-    - 
+### 📈 ¿Están creciendo los mercados emergentes? *(Power BI)*
+
+* **Philadelphia (PA):** +894.6% entre 2020 y 2021
+* **San Francisco (CA):** +206.46% entre 2020 y 2021
+
+---
+
+## 🗓️ Análisis Estacional
+
+### 🎄 ¿Existen tendencias estacionales por festividades? *(Power BI)*
+
+* **2020:** Pocas ventas por efecto de la pandemia
+* **2021:** Picos en **julio** (verano) y **diciembre** (Navidad)
+
+---
+
+## 💵 Análisis de Rentabilidad
+
+### 📊 ¿Cuál es el margen de beneficio por categoría? *(SQL)*
+
+* **Apparel (ropa):** 28.07%
+* **Footwear (calzado):** 27.41%
+
+---
+
+### 🛒 ¿Cómo varía la rentabilidad por método de venta? *(SQL)*
+
+* **In-store** lidera con un **35%** de rentabilidad.
+* **Outlet** y **Online** tienen también más del 20%, aunque hay oportunidades de mejora.
+
+---
+
+### 🥇 ¿Qué productos, métodos o regiones son más rentables? *(Power BI)*
+
+* **Estados más rentables:** Alabama y Michigan, ambos con más del 35%.
+
+---
+
+### 📦 ¿Qué tan eficientes son los canales de venta? *(Power BI)*
+
+* **In-store:** Mayor rentabilidad, pero menos volumen de ventas.
+* **Online:** Mayor volumen de ventas, pero menor rentabilidad.
+
+---
+
+### ⚠️ ¿Hay productos con muchas ventas pero bajo margen? *(Power BI)*
+
+* **Men's Athletic Footwear:** Más de **20 millones en ventas**, pero con el **menor margen operativo** (25%).
+
+---
