@@ -104,13 +104,13 @@ Usamos Power BI para la visualización de los datos, todo esto lo puedes encontr
 
 Claro, aquí tienes tu README mejorado, con correcciones de estilo, redacción más profesional, organización más clara, y mayor cohesión visual y estructural. También he añadido pequeños ajustes para una mejor lectura y presentación general:
 
----
+
 
 # 📊 Respuestas a Preguntas Clave
 
 Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clave que permiten comprender el comportamiento del negocio, el perfil de los clientes y la rentabilidad de los productos. A continuación, se presentan los hallazgos clasificados por tipo de análisis:
 
----
+
 
 ## 🛒 Análisis de Ventas
 
@@ -119,7 +119,7 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 * **2020:** 24 millones de dólares
 * **2021:** 95 millones de dólares
 
----
+
 
 ### 📆 ¿Cuáles son los ingresos mensuales en 2020 y 2021? *(SQL)*
 
@@ -153,7 +153,7 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 * **Noviembre:** 7.80 M
 * **Diciembre:** 10.33 M
 
----
+
 
 ### 🥇 ¿Cuáles son los 5 productos más vendidos a lo largo del tiempo? *(SQL)*
 
@@ -163,19 +163,19 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 4. Women's Street Footwear
 5. Men's Apparel
 
----
+
 
 ### 📈 ¿Cuál es el valor promedio de ventas diarias por minorista? *(SQL)*
 
 * **165.7 mil dólares por día**
 
----
+
 
 ### 🔥 ¿Cuál fue el período con mayores ventas? *(Power BI)*
 
 * **Julio de 2021** con más de **10 millones de dólares** en ingresos
 
----
+
 
 ## 👥 Análisis del Cliente
 
@@ -185,7 +185,7 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 * **Sudeste:** Florida – 7.8 M
 * **Oeste:** California – 8.4 M
 
----
+
 
 ### 🛍️ ¿Cuáles son los 3 métodos de venta más rentables? *(SQL)*
 
@@ -193,7 +193,7 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 2. **Outlet:** 27.29%
 3. **Online:** 21.47%
 
----
+
 
 ## 🧢 Análisis de Producto
 
@@ -201,41 +201,41 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 
 * **Calzado** (Footwear) lidera en popularidad.
 
----
+
 
 ### 🧑‍🤝‍🧑 ¿Es más popular el producto masculino o femenino? *(SQL)*
 
 * Los productos para **hombres** son más populares.
 
----
+
 
 ### 📦 ¿Cuántos productos se vendieron por año? *(SQL)*
 
 * **2020:** 460 mil unidades
 * **2021:** más de 2 millones de unidades
 
----
+
 
 ### ⭐ ¿Cuáles son los productos más vendidos? *(Power BI)*
 
 1. **Men's Street Footwear:** 2.7 M unidades
 2. **Women's Apparel:** 2.3 M unidades
 
----
+
 
 ### 🧍‍♂️🧍‍♀️ ¿Cuál es la preferencia de productos por género? *(Power BI)*
 
 * **Hombres:** Prefieren `Men's Street Footwear`, seguido de Men's Athletic Footwear y Men's Apparel.
 * **Mujeres:** Prefieren `Women's Apparel`, seguido de Women's Street Footwear y Women's Athletic Footwear.
 
----
+
 
 ### 💹 ¿Qué productos son más rentables? *(Power BI)*
 
 1. `Men's Street Footwear`
 2. `Women's Apparel`
 
----
+
 
 ## 🌐 Análisis Geográfico
 
@@ -245,20 +245,20 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 * **Kohl's:** California
 * **Walmart:** Florida
 
----
+
 
 ### 📍 ¿Dónde se concentran las mayores ventas? *(Power BI)*
 
 * **Estados:** New York, California y Florida
 
----
+
 
 ### 📈 ¿Están creciendo los mercados emergentes? *(Power BI)*
 
 * **Philadelphia (PA):** +894.6% entre 2020 y 2021
 * **San Francisco (CA):** +206.46% entre 2020 y 2021
 
----
+
 
 ## 🗓️ Análisis Estacional
 
@@ -267,7 +267,7 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 * **2020:** Pocas ventas por efecto de la pandemia
 * **2021:** Picos en **julio** (verano) y **diciembre** (Navidad)
 
----
+
 
 ## 💵 Análisis de Rentabilidad
 
@@ -276,30 +276,29 @@ Durante el análisis de datos de ventas, se buscaron respuestas a preguntas clav
 * **Apparel (ropa):** 28.07%
 * **Footwear (calzado):** 27.41%
 
----
+
 
 ### 🛒 ¿Cómo varía la rentabilidad por método de venta? *(SQL)*
 
 * **In-store** lidera con un **35%** de rentabilidad.
 * **Outlet** y **Online** tienen también más del 20%, aunque hay oportunidades de mejora.
 
----
+
 
 ### 🥇 ¿Qué productos, métodos o regiones son más rentables? *(Power BI)*
 
 * **Estados más rentables:** Alabama y Michigan, ambos con más del 35%.
 
----
+
 
 ### 📦 ¿Qué tan eficientes son los canales de venta? *(Power BI)*
 
 * **In-store:** Mayor rentabilidad, pero menos volumen de ventas.
 * **Online:** Mayor volumen de ventas, pero menor rentabilidad.
 
----
+
 
 ### ⚠️ ¿Hay productos con muchas ventas pero bajo margen? *(Power BI)*
 
 * **Men's Athletic Footwear:** Más de **20 millones en ventas**, pero con el **menor margen operativo** (25%).
 
----
