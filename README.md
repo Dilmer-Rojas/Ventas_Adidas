@@ -101,10 +101,9 @@ Usamos Power BI para la visualización de los datos, todo esto lo puedes encontr
 
 [LINK Dashboard Power BI](https://app.powerbi.com/groups/me/reports/47584f11-b20c-4b6f-9142-c29f7d861a58/ee61dbf363ab37347ac6?experience=power-bi)
 
+**Informe Ejecutivo** ⇒ Para presentar
 
-Claro, aquí tienes tu README mejorado, con correcciones de estilo, redacción más profesional, organización más clara, y mayor cohesión visual y estructural. También he añadido pequeños ajustes para una mejor lectura y presentación general:
-
-
+[Informe Ejecutivo](./reports/Informe%20Ejecutivo%20Adidas%20US%20Sales.pdf)
 
 ## Respuestas a Preguntas Clave
 
