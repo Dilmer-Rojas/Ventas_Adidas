@@ -97,23 +97,23 @@ Usamos SQL para hacer el análisis exploratorio de datos, todo esto lo puedes en
 
 * **Principal**
 
-[Principal](./src/images/dashboard_imgs/im1.png)
+![Principal](./src/images/dashboard_imgs/im1.png)
 
 * **Análisis de Producto**
 
-[Análisis de Producto](./src/images/dashboard_imgs/im2.png)
+![Análisis de Producto](./src/images/dashboard_imgs/im2.png)
 
 * **Análisis Geográfico**
 
-[Análisis Geográfico](./src/images/dashboard_imgs/im3.png)
+![Análisis Geográfico](./src/images/dashboard_imgs/im3.png)
 
 * **Análisis de Rentabilidad**
 
-[Análisis de Rentabilidad](./src/images/dashboard_imgs/im4.png)
+![Análisis de Rentabilidad](./src/images/dashboard_imgs/im4.png)
 
 * **Análisis de Minoristas**
 
-[Análisis de Minoristas](./src/images/dashboard_imgs/im5.png)
+![Análisis de Minoristas](./src/images/dashboard_imgs/im5.png)
 
 Usamos Power BI para la visualización de los datos, todo esto lo puedes encontrar en:
 
