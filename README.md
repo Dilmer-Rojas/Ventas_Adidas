@@ -24,12 +24,12 @@ Este proyecto responde a estas preguntas con el objetivo de **apoyar decisiones 
 
 ## 🌟 Insights Clave
 
-- Las ventas crecieron **de 24M en 2020 a 95M en 2021** (x4 en solo un año).  
-- **Calzado masculino** es el producto estrella, concentrando más del **70% de las ventas**.  
-- **New York, California y Florida** son los mercados principales en ingresos.  
-- **Julio y diciembre** destacan como meses pico (verano y Navidad).  
-- El canal **In-store** es el más rentable, mientras que el **Online** genera mayor volumen.  
-- Algunos productos, como *Men’s Athletic Footwear*, venden mucho pero con **bajo margen de ganancia**.  
+* Las ventas crecieron **de 24M en 2020 a 95M en 2021** (x4 en solo un año).  
+* El **Calzado masculino** es el que domina las ventas, siendo la categoría más popular.  
+* **New York, California y Florida** son los mercados principales en ingresos.  
+* **Julio y diciembre** destacan como meses pico (verano y Navidad).  
+* El canal **In-store** es el más rentable, mientras que el **Online** genera mayor volumen.  
+* Algunos productos, como *Men’s Athletic Footwear*, venden mucho pero con **bajo margen de ganancia**.  
 
 ---
 
